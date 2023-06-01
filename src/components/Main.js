@@ -62,7 +62,8 @@ const Main = () => {
                     <Button 
                         buttonText = {'Contacto'} 
                         color = {'#FF7F11'}
-                        hoverColor={'#262626'}                        
+                        hoverColor={'#262626'}
+                        route={'https://www.linkedin.com/in/gustavo-gonzález-89469a279/'}                        
                     />
                 </div>
             </div>

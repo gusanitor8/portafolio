@@ -17,7 +17,7 @@ const MyCard = () =>{
                     <h3 className="mycard-emailinfo">gon21438@uvg.edu.gt</h3>
                     <div className="mycard-icon-bar">
                         <Icon imageSource={github} link={'https://github.com/gusanitor8'}/>
-                        <Icon imageSource={linkedIn}/>
+                        <Icon imageSource={linkedIn} link={'https://www.linkedin.com/in/gustavo-gonzález-89469a279/'}/>
                     </div>
                 </div>
             </div>
