@@ -2,5 +2,14 @@
 $font-family-primary: 'Space Mono', monospace;
 
 :root{
-    font-family: $font-family-primary;
+    font-family: $font-family-primary;    
+}
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inerit;
 }

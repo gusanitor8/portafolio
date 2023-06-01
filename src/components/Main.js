@@ -16,24 +16,22 @@ const Main = () => {
                         buttonText = {'Conóceme!'} 
                         color = {'#FF7F11'}
                         hoverColor={'#262626'}
+                        route = {'/about'}
                     />
                 </div>
                 <div className="main-grid-item-second">
                     <Decoration 
                         bgHoverColor={'#262626'}
-                        bgColor = {'red'}
                         index={0}/>
                 </div>
                 <div className="main-grid-item-third">
                     <Decoration 
                         bgHoverColor={'#262626'}
-                        bgColor = {'red'}
                         index={2}/>
                 </div>
                 <div className="main-grid-item-fourth">
                     <Decoration 
-                        bgHoverColor={'#262626'}
-                        bgColor = {'red'}
+                        bgHoverColor={'#262626'}                        
                         index={2}/>
                 </div>
                 <div className="main-grid-item-fifth">
@@ -45,14 +43,12 @@ const Main = () => {
                 </div>
                 <div className="main-grid-item-sixth">
                     <Decoration 
-                        bgHoverColor={'#262626'}
-                        bgColor = {'red'}
+                        bgHoverColor={'#262626'}                        
                         index={1}/>
                 </div>
                 <div className="main-grid-item-seventh">
                     <Decoration 
-                        bgHoverColor={'#262626'}
-                        bgColor = {'red'}
+                        bgHoverColor={'#262626'}                        
                         index={0}/>
                 </div>
                 <div className="main-grid-item-eighth">
@@ -65,7 +61,7 @@ const Main = () => {
                     <Button 
                         buttonText = {'Contacto'} 
                         color = {'#FF7F11'}
-                        hoverColor={'#262626'}
+                        hoverColor={'#262626'}                        
                     />
                 </div>
             </div>
