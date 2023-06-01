@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+$font-family-primary: 'Space Mono', monospace;
 
 .navbar-nav {
     width: 100%;
-  
+    font-family: $font-family-primary;    
+
     .navbar-container{
         /* dimensions */
         width: 100%;
@@ -19,7 +22,7 @@
 
 .navbar-left {
     .navbar-gus{
-        margin-left: 5%;
+        margin-left: 15%;
         color:white;
 
         margin-top: 20px;
@@ -34,7 +37,7 @@
         align-items: center;
         justify-content: flex-end;
         
-        margin-right: 5%;
+        margin-right: 15%;
 
         .navbar-about{
             margin-right: 25px;

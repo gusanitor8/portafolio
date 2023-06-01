@@ -1,0 +1,12 @@
+.display-container{
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+
+    .display-image{
+        object-fit: cover;
+        width: inherit;
+        height: 100%;
+        z-index: 0;
+    }
+}

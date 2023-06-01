@@ -3,34 +3,39 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   output: {
-    path: path.join(__dirname, "/dist"), // the bundle output path
-    filename: "bundle.js", // the name of the bundle
+    path: path.join(__dirname, "/dist"),
+    filename: "bundle.js",
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "src/index.html", // to import index.html file inside index.js
+      template: "src/index.html",
     }),
   ],
   devServer: {
-    port: 3030, // you can change the port
+    port: 3030,
   },
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/, // .js and .jsx files
-        exclude: /node_modules/, // excluding the node_modules folder
+        test: /\.(js|jsx)$/,
+        exclude: /node_modules/,
         use: {
           loader: "babel-loader",
         },
       },
       {
-        test: /\.(sa|sc|c)ss$/, // styles files
+        test: /\.(sa|sc|c)ss$/,
         use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
-        test: /\.(png|woff|woff2|eot|ttf|svg)$/, // to import images and fonts
+        test: /\.(png|jpg|jpeg|gif|woff|woff2|eot|ttf|svg)$/,
         loader: "url-loader",
-        options: { limit: false },
+        options: {
+          limit: false,
+          name: "[name].[ext]",
+          outputPath: "assets", // Specify the output directory for images
+          publicPath: "assets", // Specify the public path for images
+        },
       },
     ],
   },
@@ -38,6 +43,6 @@ module.exports = {
     alias: {
       'react-router': require.resolve('react-router')
     },
-    extensions: ['.js', '.jsx'] // specify file extensions to resolve
+    extensions: ['.js', '.jsx']
   },
 };

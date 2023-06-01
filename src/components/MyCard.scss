@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+$font-family-primary: 'Space Mono', monospace;
+
+.mycard-container{
+    font-family: $font-family-primary;  
+    
+    .mycard-figure{
+        height: 500px;
+        width: auto;
+        overflow: hidden;
+        margin: 0;
+        display: block;
+
+        .mycard-image{
+            height: inherit;
+            width: inherit;
+            object-fit: contain;
+        }
+    }
+
+    .mycard-caption-container{
+        .mycard-caption{
+            margin:0;
+            margin-top:5px;
+        }
+    }
+
+}
