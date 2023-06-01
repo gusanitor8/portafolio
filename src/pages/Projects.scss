@@ -32,3 +32,13 @@ $font-family-primary: 'Space Mono', monospace;
     }
 
 }
+
+@media (max-width: 414px) {
+    .legend-super-container{        
+        .legend-container{
+            .legend-text{
+                font-size: 1em;
+            }
+        }
+    }
+  }

@@ -4,3 +4,12 @@
     height: 500px;         
     justify-content: center;    
 }
+
+@media (max-width: 414px) {
+    .carrousel-container{
+        flex-direction: column;
+        overflow: auto;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}

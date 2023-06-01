@@ -67,3 +67,9 @@ $height : 33vh;
         width: 100%;
     }
 }
+
+@media (max-width: 450px) {
+    .main-grid-container{
+        font-size: 0.4em;
+    }
+}

@@ -9,3 +9,17 @@
         left:30px ;
     }
 }
+
+@media (max-width: 414px) {
+    .about-content{
+        width: 100%;
+        .mycard-container-container{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            
+            top:0;
+            left:0;            
+        }
+    }
+}

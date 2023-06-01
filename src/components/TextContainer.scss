@@ -40,3 +40,10 @@ $secondary-font: 'Roboto', sans-serif;
         }
     }
 }
+@media (max-width: 417px) {
+    .super-text-container {
+        .text-container {
+           width: 90%;
+        }
+    }
+}
