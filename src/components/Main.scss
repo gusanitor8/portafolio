@@ -1,0 +1,66 @@
+$height : 33vh;
+
+.main-grid-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    
+    grid-template-areas:
+        "a a a a a b b b b c c c"
+        "d d d d e e e e f f f f"
+        "g g g h h h i i i i i i";
+
+    .main-grid-item-first {
+        grid-area: a;        
+        height: $height;
+        width: 100%;
+    }
+
+    .main-grid-item-second {
+        grid-area: b;        
+        height: $height;
+        width: 100%;
+    }
+
+    .main-grid-item-third {
+        grid-area: c;        
+        height: $height;
+        width: 100%;
+    }
+
+    .main-grid-item-fourth {
+        grid-area: d;        
+        height: $height;
+        width: 100%;
+    }
+
+    .main-grid-item-fifth {
+        grid-area: e;        
+        height: $height;
+        width: 100%;
+    }
+
+    .main-grid-item-sixth {
+        grid-area: f;        
+        height: $height;
+        width: 100%;
+    }
+
+    .main-grid-item-seventh {
+        grid-area: g;        
+        height: $height;
+        width: 100%;
+    }
+
+    .main-grid-item-eighth {
+        grid-area: h;        
+        height: $height;
+        width: 100%;
+    }
+
+    .main-grid-item-ninth {
+        grid-area: i;        
+        height: $height;
+        width: 100%;
+    }
+}

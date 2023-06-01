@@ -1,0 +1,56 @@
+a{
+    text-decoration: none;
+}
+
+.button-super-container{
+    /*positioning*/ 
+    position: relative;
+
+    /*dimension*/
+    height: 100%;
+    width: 100%;
+
+    .button-container{ 
+        /*positioning*/
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        /*dimension*/        
+        transition: 
+            margin 0.3s ease-in-out, 
+            background-color 0.3s ease-in-out;
+
+        /*display*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /*styling*/
+        //background-color: black;
+
+        .button-tittle{    
+            /*unset inherited properties*/       
+            margin: 0; 
+            text-decoration: none;
+
+            /*styling*/
+            color: white;    
+
+            /*font*/
+            font-size: 3em;
+
+            /*transition*/
+            transition: font-size 0.3s ease-in-out;
+        }
+            
+    }
+
+    /*
+    .button-container:hover{        
+        margin: 0;                
+    }
+    */
+}

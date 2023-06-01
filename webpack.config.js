@@ -34,4 +34,10 @@ module.exports = {
       },
     ],
   },
+  resolve: {
+    alias: {
+      'react-router': require.resolve('react-router')
+    },
+    extensions: ['.js', '.jsx'] // specify file extensions to resolve
+  },
 };
