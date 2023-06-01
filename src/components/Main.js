@@ -39,6 +39,7 @@ const Main = () => {
                         buttonText = {'Proyectos'} 
                         color = {'#FF7F11'}
                         hoverColor={'#262626'}
+                        route={'./projects'}
                     />
                 </div>
                 <div className="main-grid-item-sixth">

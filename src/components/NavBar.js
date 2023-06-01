@@ -66,6 +66,7 @@ const NavBar = () => {
                                 >about</h2>
                             </Link>
                             <Link
+                                to = '/projects'
                                 onMouseEnter={handleMouseEnter2}
                                 onMouseLeave={handleMouseLeave2}
                             >

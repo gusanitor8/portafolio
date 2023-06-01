@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+$font-family: 'Space Mono', monospace;
+$secondary-font: 'Roboto', sans-serif;
+
+.card-super-container {
+    display: inline-block;
+    max-width: 300px; /* Adjust the value to your desired constant width */    
+    height: 100%;
+    padding:10px;
+
+    border: 1px solid transparent;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+
+    margin-top:20px;
+    margin-bottom: 20px;
+    transition: 
+        margin-bottom 0.3s ease-in-out, 
+        margin-top 0.3s ease-in-out,
+        border 0.3s ease-in-out,
+        box-shadow 0.3s ease-in-out;
+
+    .card-image-container {
+        width:100%;
+
+        .card-image{
+            width: inherit;
+        }
+    }
+
+    .card-info-container{
+        .card-tittle-container{
+            font-family: $font-family;
+
+            .card-tittle{
+                margin:0;
+            }
+        }
+
+        .card-description-container{
+            font-family: $secondary-font;
+        }
+
+        .card-button-container{
+            font-family: $font-family;
+            display: flex;
+            justify-content: flex-end;
+
+            
+
+            .card-button{
+                all:unset;
+                border: 2px solid black;
+                padding:8px;
+                margin:5px;
+                color: black;
+            }
+
+            .card-button:hover{
+                background-color: black;
+                color:white;
+            }
+        }
+    }
+  }
+
+  .card-super-container:hover{
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  

@@ -13,7 +13,7 @@ const MyCard = () =>{
                     <img className="mycard-image" src={myPhoto} ></img>                    
                 </div>
                 <div className="mycard-caption-container">
-                    <h1 className="mycard-caption">Gustao González</h1>
+                    <h1 className="mycard-caption">Gustavo González</h1>
                     <h3 className="mycard-emailinfo">gon21438@uvg.edu.gt</h3>
                     <div className="mycard-icon-bar">
                         <Icon imageSource={github} link={'https://github.com/gusanitor8'}/>

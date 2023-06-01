@@ -1,8 +1,7 @@
 import React from 'react';
-import background from '../resources/background.jpg';
 import './ImageDisplay.scss';
 
-const ImageDisplay = () => {
+const ImageDisplay = ({background}) => {
     return(
         <>
             
