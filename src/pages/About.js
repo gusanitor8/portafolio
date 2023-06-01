@@ -4,12 +4,20 @@ import ImageDisplay from "../components/ImageDisplay";
 import TextContainer from "../components/TextContainer";
 import MyCard from '../components/MyCard';
 
+import './About.scss';
+
+
 const About = () =>{
     return(
         <>
-            <NavBar/>
+            <NavBar/>            
             <ImageDisplay/>
-            <TextContainer/>
+            <div className="about-content">
+                <TextContainer/>
+                <div className="mycard-container-container">
+                    <MyCard/>
+                </div>
+            </div>
         </>
         );
 }
